@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VirtualOut Title="Yamaha MusicCast v1.0" Comment="" Address="http://MUSICCASTIP" CmdInit="" CloseAfterSend="true" CmdSep="">
+	<VirtualOutCmd Title="set_volume" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/YamahaExtendedControl/v1/main/setVolume?volume=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="set_power_off" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/YamahaExtendedControl/v1/main/setPower?power=standby" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="set_power_on" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/YamahaExtendedControl/v1/main/setPower?power=on" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="set_mute_on" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/YamahaExtendedControl/v1/main/setMute?enable=true" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="set_mute_off" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/YamahaExtendedControl/v1/main/setMute?enable=false" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+</VirtualOut>
