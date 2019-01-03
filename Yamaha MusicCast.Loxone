@@ -1,0 +1,1132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlList Version="156" LxAV="20" NextObj="17" NextConst="1" NextNote="1" NextMem="1">
+	<C Type="Document" V="124" U="12d27709-005e-b2aa-ffffd2e16011df83" Title="MusicCast v1.0" WF="16384" ConfigVersion="10000924" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2019-01-03 21:58:56" CDate="" BDate="" DateS="315784736" Street="" Town="" Ctry="" Latitude="48.2" Longitude="13.36" Creator="Christian Becker" Tel="123456789" Logo="" uuidNotifications="12d27709-005e-b2a8-ffffd2e16011df83" uuidFavSeq="12d277e9-0218-0f41-ffffd4473b68f38f" uuidFavCol="12d277e9-0218-0f42-ffffd4473b68f38f" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="12d27709-005e-b2a9-ffffd2e16011df83" Currency="€" UpdTime="120" CrashL="true" Geo="0" NumO="329">
+		<C Type="LoxCaption" V="124" U="12d27709-005f-b2ac-ffffd2e16011df83" Title="Symbole" Cl="0,0,0" WF="16384" CaptionType="5">
+			<C Type="IconCaptionState" V="124" U="12d27709-0060-b2ae-ffffd2e16011df83" Title="Statussymbole" WF="16384">
+				<C Type="IconState" V="124" U="00000000-0000-0001-2200000000000000" Title="Nicht zugeordnet" WF="16384"/>
+				<C Type="IconState" V="124" U="00000000-0000-0002-2200000000000000" Title="Schwerer Fehler" WF="16384" Ix="1"/>
+				<C Type="IconState" V="124" U="00000000-0000-0003-2200000000000000" Title="Kleiner Fehler" WF="16384" Ix="2"/>
+				<C Type="IconState" V="124" U="00000000-0000-0004-2200000000000000" Title="Warnung" WF="16384" Ix="3"/>
+				<C Type="IconState" V="124" U="00000000-0000-0005-2200000000000000" Title="Info" WF="16384" Ix="4"/>
+				<C Type="IconState" V="124" U="00000000-0000-0006-2200000000000000" Title="Neutral" WF="16384" Ix="5"/>
+				<C Type="IconState" V="124" U="00000000-0000-0007-2200000000000000" Title="Aktiv" WF="16384" Ix="6"/>
+				<C Type="IconState" V="124" U="00000000-0000-0008-2200000000000000" Title="Inaktiv" WF="16384" Ix="7"/>
+				<C Type="IconState" V="124" U="00000000-0000-0009-2200000000000000" Title="Alarm" WF="16384" Ix="8"/>
+				<C Type="IconState" V="124" U="00000000-0000-000a-2200000000000000" Title="Scharf" WF="16384" Ix="9"/>
+				<C Type="IconState" V="124" U="00000000-0000-000b-2200000000000000" Title="Unscharf" WF="16384" Ix="10"/>
+				<C Type="IconState" V="124" U="00000000-0000-000c-2200000000000000" Title="Oben" WF="16384" Ix="11"/>
+				<C Type="IconState" V="124" U="00000000-0000-000d-2200000000000000" Title="Mitte" WF="16384" Ix="12"/>
+				<C Type="IconState" V="124" U="00000000-0000-000e-2200000000000000" Title="Unten" WF="16384" Ix="13"/>
+				<C Type="IconState" V="124" U="00000000-0000-000f-2200000000000000" Title="Auf" WF="16384" Ix="14"/>
+				<C Type="IconState" V="124" U="00000000-0000-0010-2200000000000000" Title="Zu" WF="16384" Ix="15"/>
+				<C Type="IconState" V="124" U="00000000-0000-0011-2200000000000000" Title="Ein" WF="16384" Ix="16"/>
+				<C Type="IconState" V="124" U="00000000-0000-0012-2200000000000000" Title="Aus" WF="16384" Ix="17"/>
+				<C Type="IconState" V="124" U="00000000-0000-0013-2200000000000000" Title="Voll" WF="16384" Ix="18"/>
+				<C Type="IconState" V="124" U="00000000-0000-0014-2200000000000000" Title="Leer" WF="16384" Ix="19"/>
+				<C Type="IconState" V="124" U="00000000-0000-0015-2200000000000000" Title="Fertig" WF="16384" Ix="20"/>
+				<C Type="IconState" V="124" U="00000000-0000-0016-2200000000000000" Title="In Arbeit" WF="16384" Ix="21"/>
+				<C Type="IconState" V="124" U="00000000-0000-0017-2200000000000000" Title="Heiß" WF="16384" Ix="22"/>
+				<C Type="IconState" V="124" U="00000000-0000-0018-2200000000000000" Title="Kalt" WF="16384" Ix="23"/>
+				<C Type="IconState" V="124" U="00000000-0000-0019-2200000000000000" Title="Webpage" WF="16384" Ix="24"/>
+			</C>
+			<C Type="IconCaptionCat" V="124" U="12d27709-0060-b2b0-ffffd2e16011df83" Title="Kategoriesymbole" WF="16384">
+				<C Type="IconCat" V="124" U="00000000-0000-0001-2000000000000000" Title="Nicht zugeordnet" WF="16384"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0002-2000000000000000" Title="Beleuchtung" WF="16384" Ix="1"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0003-2000000000000000" Title="Beschattung" WF="16384" Ix="2"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0004-2000000000000000" Title="Heizung" WF="16384" Ix="3"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0005-2000000000000000" Title="Klima" WF="16384" Ix="4"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0006-2000000000000000" Title="Audio" WF="16384" Ix="5"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0007-2000000000000000" Title="Fühler" WF="16384" Ix="6"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0008-2000000000000000" Title="Stellantrieb" WF="16384" Ix="7"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0009-2000000000000000" Title="Temperatur" WF="16384" Ix="8"/>
+				<C Type="IconCat" V="124" U="00000000-0000-000a-2000000000000000" Title="Melder" WF="16384" Ix="9"/>
+				<C Type="IconCat" V="124" U="00000000-0000-000b-2000000000000000" Title="Lüftung" WF="16384" Ix="10"/>
+				<C Type="IconCat" V="124" U="00000000-0000-000c-2000000000000000" Title="Fenster" WF="16384" Ix="11"/>
+				<C Type="IconCat" V="124" U="00000000-0000-000d-2000000000000000" Title="Überwachung" WF="16384" Ix="12"/>
+				<C Type="IconCat" V="124" U="00000000-0000-000e-2000000000000000" Title="Kühlung" WF="16384" Ix="13"/>
+				<C Type="IconCat" V="124" U="00000000-0000-000f-2000000000000000" Title="Alarm" WF="16384" Ix="14"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0010-2000000000000000" Title="Tor" WF="16384" Ix="15"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0011-2000000000000000" Title="Wellness" WF="16384" Ix="16"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0012-2000000000000000" Title="Technik" WF="16384" Ix="17"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0013-2000000000000000" Title="Audio 2" WF="16384" Ix="18"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0014-2000000000000000" Title="Beleuchtung 2" WF="16384" Ix="19"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0015-2000000000000000" Title="Temperatur 2" WF="16384" Ix="20"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0016-2000000000000000" Title="Melder 2" WF="16384" Ix="21"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0017-2000000000000000" Title="Alarm 2" WF="16384" Ix="22"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0018-2000000000000000" Title="Audio 3" WF="16384" Ix="23"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0019-2000000000000000" Title="Fenster 2" WF="16384" Ix="24"/>
+				<C Type="IconCat" V="124" U="00000000-0000-001a-2000000000000000" Title="Heizung 2" WF="16384" Ix="25"/>
+				<C Type="IconCat" V="124" U="00000000-0000-001b-2000000000000000" Title="Heizventil 2" WF="16384" Ix="26"/>
+				<C Type="IconCat" V="124" U="00000000-0000-001c-2000000000000000" Title="Technik 2" WF="16384" Ix="27"/>
+				<C Type="IconCat" V="124" U="00000000-0000-001d-2000000000000000" Title="Tor 2" WF="16384" Ix="28"/>
+				<C Type="IconCat" V="124" U="00000000-0000-001e-2000000000000000" Title="EDV" WF="16384" Ix="29"/>
+				<C Type="IconCat" V="124" U="00000000-0000-001f-2000000000000000" Title="EDV 2" WF="16384" Ix="30"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0020-2000000000000000" Title="Zutritt" WF="16384" Ix="31"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0021-2000000000000000" Title="Zutritt 2" WF="16384" Ix="32"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0022-2000000000000000" Title="Verbraucher" WF="16384" Ix="33"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0023-2000000000000000" Title="Verbraucher 2" WF="16384" Ix="34"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0024-2000000000000000" Title="Bewässerung" WF="16384" Ix="35"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0025-2000000000000000" Title="Bewässerung 2" WF="16384" Ix="36"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0026-2000000000000000" Title="Photovoltaik" WF="16384" Ix="37"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0027-2000000000000000" Title="Überwachung 2" WF="16384" Ix="38"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0028-2000000000000000" Title="Zutritt 3" WF="16384" Ix="39"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0029-2000000000000000" Title="Zeit" WF="16384" Ix="40"/>
+				<C Type="IconCat" V="124" U="00000000-0000-002a-2000000000000000" Title="Elektrofahrzeug" WF="16384" Ix="41"/>
+				<C Type="IconCat" V="124" U="00000000-0000-002b-2000000000000000" Title="Sonne" WF="16384" Ix="42"/>
+				<C Type="IconCat" V="124" U="00000000-0000-002c-2000000000000000" Title="Wecker" WF="16384" Ix="43"/>
+				<C Type="IconCat" V="124" U="00000000-0000-002d-2000000000000000" Title="Strom" WF="16384" Ix="44"/>
+				<C Type="IconCat" V="124" U="00000000-0000-002e-2000000000000000" Title="Info" WF="16384" Ix="45"/>
+				<C Type="IconCat" V="124" U="00000000-0000-002f-2000000000000000" Title="Zirkulationspumpe" WF="16384" Ix="46"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0030-2000000000000000" Title="Wärmepumpe" WF="16384" Ix="47"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0031-2000000000000000" Title="Wetter" WF="16384" Ix="48"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0032-2000000000000000" Title="Feuchte" WF="16384" Ix="49"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0033-2000000000000000" Title="Multimedia" WF="16384" Ix="50"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0034-2000000000000000" Title="Energie" WF="16384" Ix="51"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0035-2000000000000000" Title="Einstellungen" WF="16384" Ix="52"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0036-2000000000000000" Title="Nacht" WF="16384" Ix="53"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0037-2000000000000000" Title="Party" WF="16384" Ix="54"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0038-2000000000000000" Title="Tiefschlaf" WF="16384" Ix="55"/>
+				<C Type="IconCat" V="124" U="00000000-0000-0039-2000000000000000" Title="Abwesend" WF="16384" Ix="56"/>
+				<C Type="IconCat" V="124" U="00000000-0000-003a-2000000000000000" Title="Bedienelemente" WF="16384" Ix="57"/>
+				<C Type="IconCat" V="124" U="00000000-0000-003b-2000000000000000" Title="Sturmschutz" WF="16384" Ix="58"/>
+				<C Type="IconCat" V="124" U="00000000-0000-003c-2000000000000000" Title="Frostsicherung" WF="16384" Ix="59"/>
+			</C>
+			<C Type="IconCaptionPlace" V="124" U="12d27709-0061-b2b2-ffffd2e16011df83" Title="Raumsymbole" WF="16384">
+				<C Type="IconPlace" V="124" U="00000000-0000-0001-2100000000000000" Title="Nicht zugeordnet" WF="16384"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0002-2100000000000000" Title="Vorzimmer EG" WF="16384" Ix="1"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0003-2100000000000000" Title="Vorzimmer OG" WF="16384" Ix="2"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0004-2100000000000000" Title="Wohnzimmer" WF="16384" Ix="3"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0005-2100000000000000" Title="Küche" WF="16384" Ix="4"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0006-2100000000000000" Title="Bad" WF="16384" Ix="5"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0007-2100000000000000" Title="Bad OG" WF="16384" Ix="6"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0008-2100000000000000" Title="Schlafzimmer" WF="16384" Ix="7"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0009-2100000000000000" Title="Kinderzimmer" WF="16384" Ix="8"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-000a-2100000000000000" Title="WC" WF="16384" Ix="9"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-000b-2100000000000000" Title="Ankleidezimmer" WF="16384" Ix="10"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-000c-2100000000000000" Title="Garage" WF="16384" Ix="11"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-000d-2100000000000000" Title="Windfang" WF="16384" Ix="12"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-000e-2100000000000000" Title="Stiege" WF="16384" Ix="13"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-000f-2100000000000000" Title="Saunaraum" WF="16384" Ix="14"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0010-2100000000000000" Title="Wintergarten" WF="16384" Ix="15"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0011-2100000000000000" Title="Arbeitszimmer" WF="16384" Ix="16"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0012-2100000000000000" Title="Spielzimmer" WF="16384" Ix="17"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0013-2100000000000000" Title="Waschzimmer" WF="16384" Ix="18"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0014-2100000000000000" Title="Bügelzimmer" WF="16384" Ix="19"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0015-2100000000000000" Title="Trainingszimmer" WF="16384" Ix="20"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0016-2100000000000000" Title="Terrasse" WF="16384" Ix="21"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0017-2100000000000000" Title="Garten" WF="16384" Ix="22"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0018-2100000000000000" Title="Esszimmer" WF="16384" Ix="23"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0019-2100000000000000" Title="Dachboden" WF="16384" Ix="24"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-001a-2100000000000000" Title="Vorratskeller" WF="16384" Ix="25"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-001b-2100000000000000" Title="Bar" WF="16384" Ix="26"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-001c-2100000000000000" Title="Bad EG 2" WF="16384" Ix="27"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-001d-2100000000000000" Title="Ankleidezimmer 2" WF="16384" Ix="28"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-001e-2100000000000000" Title="Bad EG 3" WF="16384" Ix="29"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-001f-2100000000000000" Title="Bad EG 4" WF="16384" Ix="30"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0020-2100000000000000" Title="Küche 2" WF="16384" Ix="31"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0021-2100000000000000" Title="Küche 3" WF="16384" Ix="32"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0022-2100000000000000" Title="Windfang 2" WF="16384" Ix="33"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0023-2100000000000000" Title="Sanitär" WF="16384" Ix="34"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0024-2100000000000000" Title="Arbeitszimmer 2" WF="16384" Ix="35"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0025-2100000000000000" Title="Esszimmer 2" WF="16384" Ix="36"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0026-2100000000000000" Title="Konferenz" WF="16384" Ix="37"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0027-2100000000000000" Title="Garage 2" WF="16384" Ix="38"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0028-2100000000000000" Title="Wintergarten 2" WF="16384" Ix="39"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0029-2100000000000000" Title="Stiege 2" WF="16384" Ix="40"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-002a-2100000000000000" Title="Terrasse 2" WF="16384" Ix="41"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-002b-2100000000000000" Title="Pool" WF="16384" Ix="42"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-002c-2100000000000000" Title="Flur" WF="16384" Ix="43"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-002d-2100000000000000" Title="Außenbereich" WF="16384" Ix="44"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-002e-2100000000000000" Title="Technikraum" WF="16384" Ix="45"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-002f-2100000000000000" Title="Arbeitszimmer 3" WF="16384" Ix="46"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0030-2100000000000000" Title="Technikraum 2" WF="16384" Ix="47"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0031-2100000000000000" Title="Zentral" WF="16384" Ix="48"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0032-2100000000000000" Title="Serverraum" WF="16384" Ix="49"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0033-2100000000000000" Title="Heizraum" WF="16384" Ix="50"/>
+				<C Type="IconPlace" V="124" U="00000000-0000-0034-2100000000000000" Title="WC 2" WF="16384" Ix="51"/>
+			</C>
+		</C>
+		<C Type="CategoryCaption" V="124" U="12d27709-0061-b2b4-ffffd2e16011df83" Title="Kategorien" WF="16384">
+			<C Type="Category" V="124" U="12d27709-0071-b335-ffffd2e16011df83" Title="Nicht zugeordnet" WF="6307840" Icon="00000000-0000-0001-2000000000000000" First="true" PType="2"/>
+			<C Type="Category" V="124" U="12d27709-007f-b3d3-ffffd2e16011df83" Title="Multimedia" WF="16384" Icon="00000000-0000-0033-2000000000000000" PType="2"/>
+		</C>
+		<C Type="PlaceCaption" V="124" U="12d27709-0061-b2b6-ffffd2e16011df83" Title="Räume" WF="16384">
+			<C Type="Place" V="124" U="12d27709-0098-b482-ffffd2e16011df83" Title="Nicht zugeordnet" WF="6307840" Icon="00000000-0000-0001-2100000000000000" First="true" PType="2"/>
+			<C Type="Place" V="124" U="12d27709-00a6-b51e-ffffd2e16011df83" Title="Zentral" WF="16384" Icon="00000000-0000-0031-2100000000000000" PGroup="48" PType="4"/>
+		</C>
+		<C Type="UserCaption" V="124" U="12d27709-0062-b2b8-ffffd2e16011df83" Title="Benutzer" WF="16384">
+			<C Type="User" V="124" U="12d27709-0097-b46f-ffffd2e16011df83" Title="admin" WF="16384" LastEdit="0" Main="true" AppGroup="0" UsR="2047" UsRnA="1664" iBtnArr="" CodeArr="" NFCArr="" NFCNArr="" UnsP="true">
+				<HP H="AA4C79D9D24AFC79392DFD652F3B61E4C228E1C05ACE0E11A90CBED8F6C2F1C3DD9A639B96E6386484D80EEB056F4FA9" S="31326432373730392D303039372D623437302D66666666643265313630313164663833"/>
+				<HP H="" S=""/>
+			</C>
+		</C>
+		<C Type="UserGroupCaption" V="124" U="12d27709-0062-b2ba-ffffd2e16011df83" Title="Benutzergruppen" WF="16384">
+			<C Type="UserGroup" V="124" U="12d27709-0097-b472-ffffd2e16011df83" Title="Administratoren" WF="16384" Rights="-1" UgType="1" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+				<Entry To="1440" V="1"/>
+				<Entry To="1440" Ix="1" V="1"/>
+				<Entry To="1440" Ix="2" V="1"/>
+				<Entry To="1440" Ix="3" V="1"/>
+				<Entry To="1440" Ix="4" V="1"/>
+				<Entry To="1440" Ix="5" V="1"/>
+				<Entry To="1440" Ix="6" V="1"/>
+				<Entry To="1440" Ix="7" V="1"/>
+				<Entry To="1440" Ix="8" V="1"/>
+				<Entry To="1440" Ix="9" V="1"/>
+				<C Type="RefUser" V="124" U="12d27709-0097-b474-ffffd2e16011df83" Title="admin" Cl="0,0,0" Ref="12d27709-0097-b46f-ffffd2e16011df83" WF="16384"/>
+			</C>
+			<C Type="UserGroup" V="124" U="12d27709-0097-b476-ffffd2e16011df83" Title="Benutzer" WF="16384" Rights="129" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+				<Entry To="1440" V="1"/>
+				<Entry To="1440" Ix="1" V="1"/>
+				<Entry To="1440" Ix="2" V="1"/>
+				<Entry To="1440" Ix="3" V="1"/>
+				<Entry To="1440" Ix="4" V="1"/>
+				<Entry To="1440" Ix="5" V="1"/>
+				<Entry To="1440" Ix="6" V="1"/>
+				<Entry To="1440" Ix="7" V="1"/>
+				<Entry To="1440" Ix="8" V="1"/>
+				<Entry To="1440" Ix="9" V="1"/>
+			</C>
+			<C Type="UserGroup" V="124" U="12d27709-0097-b478-ffffd2e16011df83" Title="Alle" WF="16384" Rights="129" UgType="2" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+				<Entry To="1440" V="1"/>
+				<Entry To="1440" Ix="1" V="1"/>
+				<Entry To="1440" Ix="2" V="1"/>
+				<Entry To="1440" Ix="3" V="1"/>
+				<Entry To="1440" Ix="4" V="1"/>
+				<Entry To="1440" Ix="5" V="1"/>
+				<Entry To="1440" Ix="6" V="1"/>
+				<Entry To="1440" Ix="7" V="1"/>
+				<Entry To="1440" Ix="8" V="1"/>
+				<Entry To="1440" Ix="9" V="1"/>
+				<C Type="RefUser" V="124" U="12d27709-0097-b47a-ffffd2e16011df83" Title="admin" Cl="0,0,0" Ref="12d27709-0097-b46f-ffffd2e16011df83" WF="16384"/>
+			</C>
+			<C Type="UserGroup" V="124" U="12d27709-0097-b47c-ffffd2e16011df83" Title="Niemand" WF="16384" UgType="3" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+				<Entry To="1440" V="1"/>
+				<Entry To="1440" Ix="1" V="1"/>
+				<Entry To="1440" Ix="2" V="1"/>
+				<Entry To="1440" Ix="3" V="1"/>
+				<Entry To="1440" Ix="4" V="1"/>
+				<Entry To="1440" Ix="5" V="1"/>
+				<Entry To="1440" Ix="6" V="1"/>
+				<Entry To="1440" Ix="7" V="1"/>
+				<Entry To="1440" Ix="8" V="1"/>
+				<Entry To="1440" Ix="9" V="1"/>
+			</C>
+		</C>
+		<C Type="ConstantCaption" V="124" U="12d27709-0062-b2bc-ffffd2e16011df83" Title="Konstanten" WF="16384">
+			<C Type="Constant" V="124" U="12d27c6a-02ec-2500-ffffd2e16011df83" Title="cons_mute_off" Cl="0,0,0" Nio="1" WF="16400" Analog="true" AnalogConstant="102">
+				<Co K="AQ" U="12d27c6a-02ec-24ff-ffff4e1a07fcda3b"/>
+			</C>
+			<C Type="Constant" V="124" U="12d27c8b-01a8-35b6-ffffd2e16011df83" Title="cons_mute_on" Cl="0,0,0" Nio="1" WF="16400" Analog="true" AnalogConstant="116">
+				<Co K="AQ" U="12d27c8b-01a8-35b5-ffffe260f6b6e246"/>
+			</C>
+		</C>
+		<C Type="MemoryCaption" V="124" U="12d27709-0063-b2be-ffffd2e16011df83" Title="Merker" WF="16384"/>
+		<C Type="ModeCaption" V="124" U="12d27709-0063-b2c0-ffffd2e16011df83" Title="Betriebsmodi" WF="16384">
+			<C Type="Mode" V="124" U="00000000-0000-0001-1500000000000000" Title="Feiertag" Nio="2" WF="16384">
+				<Co K="I" U="12d27709-0090-b41f-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0090-b420-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-0002-1500000000000000" Title="Urlaub" Nio="2" WF="16384" Mode="1">
+				<Co K="I" U="12d27709-0090-b423-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0090-b424-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-0003-1500000000000000" Title="Freier Tag/Schulferien" Nio="2" WF="16384" Mode="2">
+				<Co K="I" U="12d27709-0090-b427-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0090-b428-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-0004-1500000000000000" Title="Montag" Nio="2" WF="16384" Mode="3">
+				<Co K="I" U="12d27709-0091-b42b-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0091-b42c-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-0005-1500000000000000" Title="Dienstag" Nio="2" WF="16384" Mode="4">
+				<Co K="I" U="12d27709-0091-b42f-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0091-b430-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-0006-1500000000000000" Title="Mittwoch" Nio="2" WF="16384" Mode="5">
+				<Co K="I" U="12d27709-0091-b433-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0091-b434-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-0007-1500000000000000" Title="Donnerstag" Nio="2" WF="16384" Mode="6">
+				<Co K="I" U="12d27709-0092-b437-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0092-b438-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-0008-1500000000000000" Title="Freitag" Nio="2" WF="16384" Mode="7">
+				<Co K="I" U="12d27709-0092-b43b-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0092-b43c-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-0009-1500000000000000" Title="Samstag" Nio="2" WF="16384" Mode="8">
+				<Co K="I" U="12d27709-0092-b43f-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0092-b440-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-000a-1500000000000000" Title="Sonntag" Nio="2" WF="16384" Mode="9">
+				<Co K="I" U="12d27709-0093-b443-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0093-b444-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-000b-1500000000000000" Title="Heizperiode" Nio="2" WF="16384" Mode="10">
+				<Co K="I" U="12d27709-0093-b447-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0093-b448-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="00000000-0000-000c-1500000000000000" Title="Kühlperiode" Nio="2" WF="16384" Mode="11">
+				<Co K="I" U="12d27709-0094-b44b-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0094-b44c-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="12d27709-0094-b451-ffffd2e16011df83" Title="Alarm" Nio="2" WF="16384" Mode="-1">
+				<Co K="I" U="12d27709-0094-b44f-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0094-b450-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="12d27709-0094-b455-ffffd2e16011df83" Title="Anwesenheitssimulation" Nio="2" WF="16384" Mode="-2">
+				<Co K="I" U="12d27709-0094-b453-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0094-b454-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="12d27709-0095-b459-ffffd2e16011df83" Title="Haus im Tiefschlaf" Nio="2" WF="16384" Mode="-3">
+				<Co K="I" U="12d27709-0095-b457-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0095-b458-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="12d27709-0095-b45d-ffffd2e16011df83" Title="Erhöhter Wärmebedarf" Nio="2" WF="16384" Mode="-4">
+				<Co K="I" U="12d27709-0095-b45b-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0095-b45c-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="12d27709-0095-b461-ffffd2e16011df83" Title="Party" Nio="2" WF="16384" Mode="-5">
+				<Co K="I" U="12d27709-0095-b45f-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0095-b460-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="124" U="12d27709-0096-b465-ffffd2e16011df83" Title="Abwesend" Nio="2" WF="16384" Mode="-6">
+				<Co K="I" U="12d27709-0096-b463-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0096-b464-ffffd2e16011df83"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+		</C>
+		<C Type="CalendarCaption" V="124" U="12d27709-0063-b2c2-ffffd2e16011df83" Title="Betriebszeiten" WF="16384">
+			<C Type="CalendarEntry" V="124" U="12d27709-0096-b469-ffffd2e16011df83" Title="Heizperiode" Nio="2" WF="16384" CalType="10" Mode="4" Month="10" Day="1" Month2="4" Day2="30" WeekDayInMonth="1">
+				<Co K="I" U="12d27709-0096-b467-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0096-b468-ffffd2e16011df83"/>
+			</C>
+			<C Type="CalendarEntry" V="124" U="12d27709-0097-b46d-ffffd2e16011df83" Title="Kühlperiode" Nio="2" WF="16384" CalType="11" Mode="4" Month="5" Day="1" Month2="9" Day2="30" WeekDayInMonth="1">
+				<Co K="I" U="12d27709-0097-b46b-ffffd2e16011df83"/>
+				<Co K="Q" U="12d27709-0097-b46c-ffffd2e16011df83"/>
+			</C>
+		</C>
+		<C Type="RemoteControls" V="124" U="12d27709-0064-b2c4-ffffd2e16011df83" Title="Fernbedienungen" WF="16384"/>
+		<C Type="TimeCaption" V="124" U="12d27709-0064-b2c6-ffffd2e16011df83" Title="Zeiten" Cl="0,0,0" WF="16384">
+			<C Type="Day2009" V="124" U="12d27709-0064-b2c9-ffffd2e16011df83" Title="Tage seit 2009" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0064-b2c8-ffffd2e16011df83"/>
+			</C>
+			<C Type="Year" V="124" U="12d27709-0065-b2cc-ffffd2e16011df83" Title="Jahr" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0065-b2cb-ffffd2e16011df83"/>
+			</C>
+			<C Type="Month" V="124" U="12d27709-0065-b2cf-ffffd2e16011df83" Title="Monat" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0065-b2ce-ffffd2e16011df83"/>
+			</C>
+			<C Type="Day" V="124" U="12d27709-0066-b2d2-ffffd2e16011df83" Title="Tag" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0066-b2d1-ffffd2e16011df83"/>
+			</C>
+			<C Type="DayOfWeek" V="124" U="12d27709-0066-b2d5-ffffd2e16011df83" Title="Wochentag" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0066-b2d4-ffffd2e16011df83"/>
+			</C>
+			<C Type="Calendar" V="124" U="12d27709-0066-b2d8-ffffd2e16011df83" Title="Aktive Betriebszeit" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0066-b2d7-ffffd2e16011df83"/>
+			</C>
+			<C Type="Time" V="124" U="12d27709-0067-b2db-ffffd2e16011df83" Title="Minuten seit Mitternacht" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0067-b2da-ffffd2e16011df83"/>
+			</C>
+			<C Type="Hour" V="124" U="12d27709-0067-b2de-ffffd2e16011df83" Title="Stunde" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0067-b2dd-ffffd2e16011df83"/>
+			</C>
+			<C Type="Minute" V="124" U="12d27709-0067-b2e1-ffffd2e16011df83" Title="Minuten" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0067-b2e0-ffffd2e16011df83"/>
+			</C>
+			<C Type="Second" V="124" U="12d27709-0068-b2e4-ffffd2e16011df83" Title="Sekunden" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0068-b2e3-ffffd2e16011df83"/>
+			</C>
+			<C Type="SecondsBoot" V="124" U="12d27709-0068-b2e7-ffffd2e16011df83" Title="Sekunden seit Boot" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0068-b2e6-ffffd2e16011df83"/>
+			</C>
+			<C Type="Sunrise" V="124" U="12d27709-0068-b2ea-ffffd2e16011df83" Title="Minuten bis Sonnenaufgang" Nio="1" WF="16384">
+				<Co K="Q" U="12d27709-0068-b2e9-ffffd2e16011df83"/>
+			</C>
+			<C Type="Sunset" V="124" U="12d27709-0069-b2ed-ffffd2e16011df83" Title="Minuten bis Sonnenuntergang" Nio="1" WF="16384">
+				<Co K="Q" U="12d27709-0069-b2ec-ffffd2e16011df83"/>
+			</C>
+			<C Type="Daylight" V="124" U="12d27709-0069-b2f0-ffffd2e16011df83" Title="Tageslicht" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0069-b2ef-ffffd2e16011df83"/>
+			</C>
+			<C Type="Daylight2" V="124" U="12d27709-0069-b2f3-ffffd2e16011df83" Title="Tageslicht 30Min" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-0069-b2f2-ffffd2e16011df83"/>
+			</C>
+			<C Type="Morningtwilight" V="124" U="12d27709-006a-b2f6-ffffd2e16011df83" Title="Minuten bis Morgendämmerung" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006a-b2f5-ffffd2e16011df83"/>
+			</C>
+			<C Type="Eveningtwilight" V="124" U="12d27709-006a-b2f9-ffffd2e16011df83" Title="Minuten bis Abenddämmerung" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006a-b2f8-ffffd2e16011df83"/>
+			</C>
+			<C Type="SunAltitude" V="124" U="12d27709-006b-b2fc-ffffd2e16011df83" Title="Sonne Höhe" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006b-b2fb-ffffd2e16011df83"/>
+			</C>
+			<C Type="SunAzimuth" V="124" U="12d27709-006b-b2ff-ffffd2e16011df83" Title="Sonne Richtung" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006b-b2fe-ffffd2e16011df83"/>
+			</C>
+			<C Type="StartPulse" V="124" U="12d27709-006b-b302-ffffd2e16011df83" Title="Startimpuls" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006b-b301-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseYear" V="124" U="12d27709-006c-b305-ffffd2e16011df83" Title="Jahresimpuls" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006c-b304-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseMonth" V="124" U="12d27709-006c-b308-ffffd2e16011df83" Title="Monatsimpuls" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006c-b307-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseDay" V="124" U="12d27709-006c-b30b-ffffd2e16011df83" Title="Tagesimpuls" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006c-b30a-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseHour" V="124" U="12d27709-006d-b30e-ffffd2e16011df83" Title="Stundenimpuls" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006d-b30d-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseMinute" V="124" U="12d27709-006d-b311-ffffd2e16011df83" Title="Minutenimpuls" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006d-b310-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseSecond" V="124" U="12d27709-006e-b314-ffffd2e16011df83" Title="Sekundenimpuls" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006e-b313-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseSunrise" V="124" U="12d27709-006e-b317-ffffd2e16011df83" Title="Impuls Sonnenaufgang" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006e-b316-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseSunset" V="124" U="12d27709-006e-b31a-ffffd2e16011df83" Title="Impuls Sonnenuntergang" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006e-b319-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseMorningtwilight" V="124" U="12d27709-006f-b31d-ffffd2e16011df83" Title="Impuls Morgendämmerung" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006f-b31c-ffffd2e16011df83"/>
+			</C>
+			<C Type="ImpulseEveningtwilight" V="124" U="12d27709-006f-b320-ffffd2e16011df83" Title="Impuls Abenddämmerung" Nio="1" WF="16385">
+				<Co K="Q" U="12d27709-006f-b31f-ffffd2e16011df83"/>
+			</C>
+		</C>
+		<C Type="WeatherServer" V="124" U="12d2772f-01c4-b5bc-ffffd2e16011df83" Title="Wetterserver " Cl="0,0,0" WF="16384" SType="0" Address="http://weather.loxone.com:6066" VisuUUID="12d20000-01c4-b5ba-ffffb3e373542f96" SpStates="12d2772f-01c4-b5bb-ffffb3e373542f96">
+			<IoData Visu="true" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			<C Type="WeatherData" IName="WDC34" V="124" U="12d2772f-01c5-b5bf-ffffd2e16011df83" Title="Sonnenschein" Nio="1" WF="16384" WType="34" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5be-ffffb3e373542f96"/>
+				<Display StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+			<C Type="WeatherData" IName="WDC1" V="124" U="12d2772f-01c5-b5c2-ffffd2e16011df83" Title="Temperatur" Nio="1" WF="16384" WType="1" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5c1-ffffb3e373542f96"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+			<C Type="WeatherData" IName="WDC3" V="124" U="12d2772f-01c5-b5c5-ffffd2e16011df83" Title="Rel.Luftfeuchte" Nio="1" WF="16384" WType="3" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5c4-ffffb3e373542f96"/>
+				<Display Unit="&lt;v&gt;%" StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+			<C Type="WeatherData" IName="WDC4" V="124" U="12d2772f-01c5-b5c8-ffffd2e16011df83" Title="Windgeschwindigkeit" Nio="1" WF="16384" WType="4" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5c7-ffffb3e373542f96"/>
+				<Display Unit="&lt;v&gt;km/h" StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+			<C Type="WeatherData" IName="WDC5" V="124" U="12d2772f-01c5-b5cb-ffffd2e16011df83" Title="Windrichtung" Nio="1" WF="16384" WType="5" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5ca-ffffb3e373542f96"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+			<C Type="WeatherData" IName="WDC7" V="124" U="12d2772f-01c5-b5ce-ffffd2e16011df83" Title="Strahlung Abs." Nio="1" WF="16384" WType="7" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5cd-ffffb3e373542f96"/>
+				<Display Unit="&lt;v&gt;W/m²" StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+			<C Type="WeatherData" IName="WDC9" V="124" U="12d2772f-01c5-b5d1-ffffd2e16011df83" Title="Niederschlag" Nio="1" WF="16384" WType="9" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5d0-ffffb3e373542f96"/>
+				<Display Unit="&lt;v.1&gt;l/m²/h" StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+			<C Type="WeatherData" IName="WDC11" V="124" U="12d2772f-01c5-b5d4-ffffd2e16011df83" Title="Luftdruck" Nio="1" WF="16384" WType="11" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5d3-ffffb3e373542f96"/>
+				<Display Unit="&lt;v&gt;hPa" StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+			<C Type="WeatherData" IName="WDC26" V="124" U="12d2772f-01c5-b5d7-ffffd2e16011df83" Title="Gefühlte Temperatur" Nio="1" WF="16384" WType="26" SLs="600" SLw="120">
+				<Co K="AQ" U="12d2772f-01c5-b5d6-ffffb3e373542f96"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+			</C>
+		</C>
+		<C Type="LoxCaption" V="124" U="12d27709-0097-b47e-ffffd2e16011df83" Title="Netzwerkgeräte" Cl="0,0,0" WF="16384" CaptionType="6"/>
+		<C Type="GlobalStates" V="124" U="12d27709-0070-b331-ffffd2e16011df83" Title="Systemvariablen" Cl="0,0,0" WF="16384" SpStates="12d27709-0070-b32e-ffffd2e16011df83,12d27709-0070-b32f-ffffd2e16011df83,12d27709-0070-b330-ffffd2e16011df83">
+			<C Type="SysVar" IName="SYS1" V="124" U="12d27709-00a7-b52d-ffffd2e16011df83" Title="Außentemperatur" Cl="0,0,0" Nio="3" EU="1" WF="6307840" source="12d2772f-01c4-b5bc-ffffd2e16011df83" MinVal="-80" MaxVal="150" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="12d27709-00a7-b52a-ffff8c14f2ea79d3"/>
+				<Co K="AQ" U="12d27709-00a7-b52b-ffff8c14f2ea79d3"/>
+				<Co K="Q" U="12d27709-00a7-b52c-ffff8c14f2ea79d3"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS2" V="124" U="12d27709-00a7-b532-ffffd2e16011df83" Title="Außenluftfeuchtigkeit" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="1" source="12d2772f-01c4-b5bc-ffffd2e16011df83" MaxVal="100" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="12d27709-00a7-b52f-ffff8c14f2ea79d3"/>
+				<Co K="AQ" U="12d27709-00a7-b530-ffff8c14f2ea79d3"/>
+				<Co K="Q" U="12d27709-00a7-b531-ffff8c14f2ea79d3"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display Unit="&lt;v.1&gt;%" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS3" V="124" U="12d27709-00a7-b537-ffffd2e16011df83" Title="Windgeschwindigkeit" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="2" source="12d2772f-01c4-b5bc-ffffd2e16011df83" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="12d27709-00a7-b534-ffff8c14f2ea79d3"/>
+				<Co K="AQ" U="12d27709-00a7-b535-ffff8c14f2ea79d3"/>
+				<Co K="Q" U="12d27709-00a7-b536-ffff8c14f2ea79d3"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display Unit="&lt;v&gt;km/h" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS4" V="124" U="12d27709-00a7-b53c-ffffd2e16011df83" Title="Sonnenschein" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="3" source="12d2772f-01c4-b5bc-ffffd2e16011df83" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="12d27709-00a7-b539-ffff8c14f2ea79d3"/>
+				<Co K="AQ" U="12d27709-00a7-b53a-ffff8c14f2ea79d3"/>
+				<Co K="Q" U="12d27709-00a7-b53b-ffff8c14f2ea79d3"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS5" V="124" U="12d27709-00a7-b541-ffffd2e16011df83" Title="Erwartete Sonnenenergie 12h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="4" source="12d2772f-01c4-b5bc-ffffd2e16011df83" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="12d27709-00a7-b53e-ffff8c14f2ea79d3"/>
+				<Co K="AQ" U="12d27709-00a7-b53f-ffff8c14f2ea79d3"/>
+				<Co K="Q" U="12d27709-00a7-b540-ffff8c14f2ea79d3"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display Unit="&lt;v&gt;W/m²" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS6" V="124" U="12d27709-00a7-b546-ffffd2e16011df83" Title="Erwartete Sonnenenergie 24h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="5" source="12d2772f-01c4-b5bc-ffffd2e16011df83" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="12d27709-00a7-b543-ffff8c14f2ea79d3"/>
+				<Co K="AQ" U="12d27709-00a7-b544-ffff8c14f2ea79d3"/>
+				<Co K="Q" U="12d27709-00a7-b545-ffff8c14f2ea79d3"/>
+				<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<Display Unit="&lt;v&gt;W/m²" StateOnly="true"/>
+			</C>
+		</C>
+		<C Type="MessageCenter" V="124" U="12d27709-0070-b32c-ffffd2e16011df83" Title="Systemstatus" Cl="0,0,0" WF="20480" SpStates="12d27709-0070-b32b-ffffd2e16011df83">
+			<IoData></IoData>
+		</C>
+		<C Type="Devicemonitor" V="124" U="12d27709-0070-b329-ffffd2e16011df83" Title="DeviceMonitor" Cl="0,0,0" WF="20480" SpStates="12d27709-0070-b328-ffffd2e16011df83">
+			<IoData Visu="true" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+		</C>
+		<C Type="AutoPilot" V="124" U="12d27709-006f-b326-ffffd2e16011df83" Title="Automatik-Regeln" Cl="0,0,0" Nio="2" WF="20480" SpStates="12d27709-006f-b322-ffffd2e16011df83,12d27709-006f-b323-ffffd2e16011df83" config="">
+			<Co K="Input" U="12d27709-006f-b324-ffffd2e16011df83"/>
+			<Co K="output" U="12d27709-006f-b325-ffffd2e16011df83"/>
+		</C>
+		<C Type="LoxLIVE" V="124" U="12d2772f-01ad-b548-ffffd2e16011df83" Title="Unbenannt" WF="16384" CycleUserProt="-1" Serial="504F94000000" Installation="" SwitchBoard="Schaltschrank" SwitchBoardRow="1" SwitchBoardPos="1" ExtAddr="dns.loxonecloud.com" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1">
+			<IoData Pr="12d27709-0098-b482-ffffd2e16011df83"/>
+			<C Type="InputCaption" V="124" U="12d2772f-01af-b54a-ffffd2e16011df83" Title="Digitale Eingänge" WF="16384">
+				<C Type="DigitalIn" IName="I1" V="124" U="12d2772f-01b7-b56f-ffffd2e16011df83" Title="Eingang 1" Nio="1" WF="16385" MinTime="10">
+					<Co K="Q" U="12d2772f-01b7-b56e-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I2" V="124" U="12d2772f-01b8-b572-ffffd2e16011df83" Title="Eingang 2" Nio="1" WF="16385" MinTime="10">
+					<Co K="Q" U="12d2772f-01b8-b571-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I3" V="124" U="12d2772f-01b8-b575-ffffd2e16011df83" Title="Eingang 3" Nio="1" WF="16385" MinTime="10">
+					<Co K="Q" U="12d2772f-01b8-b574-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I4" V="124" U="12d2772f-01b9-b578-ffffd2e16011df83" Title="Eingang 4" Nio="1" WF="16385" MinTime="10">
+					<Co K="Q" U="12d2772f-01b9-b577-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I5" V="124" U="12d2772f-01b9-b57b-ffffd2e16011df83" Title="Eingang 5" Nio="1" WF="16385" MinTime="10">
+					<Co K="Q" U="12d2772f-01b9-b57a-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I6" V="124" U="12d2772f-01ba-b57e-ffffd2e16011df83" Title="Eingang 6" Nio="1" WF="16385" MinTime="10">
+					<Co K="Q" U="12d2772f-01ba-b57d-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I7" V="124" U="12d2772f-01ba-b581-ffffd2e16011df83" Title="Eingang 7" Nio="1" WF="16385" MinTime="10">
+					<Co K="Q" U="12d2772f-01ba-b580-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I8" V="124" U="12d2772f-01ba-b584-ffffd2e16011df83" Title="Eingang 8" Nio="1" WF="16385" MinTime="10">
+					<Co K="Q" U="12d2772f-01ba-b583-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="AnalogInputCaption" V="124" U="12d2772f-01af-b54c-ffffd2e16011df83" Title="Analoge Eingänge" WF="16384">
+				<C Type="VoltageIn" IName="AI1" V="124" U="12d2772f-01bb-b588-ffffd2e16011df83" Title="Spannung 1" Nio="2" WF="16385" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000" AverageTime="1">
+					<Co K="AQ" U="12d2772f-01bb-b586-ffffb3e373542f96"/>
+					<Co K="Q" U="12d2772f-01bb-b587-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI2" V="124" U="12d2772f-01bb-b58c-ffffd2e16011df83" Title="Spannung 2" Nio="2" WF="16385" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000" AverageTime="1">
+					<Co K="AQ" U="12d2772f-01bb-b58a-ffffb3e373542f96"/>
+					<Co K="Q" U="12d2772f-01bb-b58b-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI3" V="124" U="12d2772f-01bc-b590-ffffd2e16011df83" Title="Spannung 3" Nio="2" WF="16385" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000" AverageTime="1">
+					<Co K="AQ" U="12d2772f-01bc-b58e-ffffb3e373542f96"/>
+					<Co K="Q" U="12d2772f-01bc-b58f-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI4" V="124" U="12d2772f-01bc-b594-ffffd2e16011df83" Title="Spannung 4" Nio="2" WF="16385" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000" AverageTime="1">
+					<Co K="AQ" U="12d2772f-01bc-b592-ffffb3e373542f96"/>
+					<Co K="Q" U="12d2772f-01bc-b593-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="OutputCaption" V="124" U="12d2772f-01b0-b54e-ffffd2e16011df83" Title="Digitale Ausgänge" WF="16384">
+				<C Type="Actor" IName="Q1" V="124" U="12d2772f-01bd-b597-ffffd2e16011df83" Title="Aktor (Relais) 1" Nio="1" WF="16385">
+					<Co K="I" U="12d2772f-01bd-b596-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q2" V="124" U="12d2772f-01bd-b59a-ffffd2e16011df83" Title="Aktor (Relais) 2" Nio="1" WF="16385">
+					<Co K="I" U="12d2772f-01bd-b599-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q3" V="124" U="12d2772f-01bd-b59d-ffffd2e16011df83" Title="Aktor (Relais) 3" Nio="1" WF="16385">
+					<Co K="I" U="12d2772f-01bd-b59c-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q4" V="124" U="12d2772f-01be-b5a0-ffffd2e16011df83" Title="Aktor (Relais) 4" Nio="1" WF="16385">
+					<Co K="I" U="12d2772f-01be-b59f-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q5" V="124" U="12d2772f-01be-b5a3-ffffd2e16011df83" Title="Aktor (Relais) 5" Nio="1" WF="16385">
+					<Co K="I" U="12d2772f-01be-b5a2-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q6" V="124" U="12d2772f-01bf-b5a6-ffffd2e16011df83" Title="Aktor (Relais) 6" Nio="1" WF="16385">
+					<Co K="I" U="12d2772f-01bf-b5a5-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q7" V="124" U="12d2772f-01bf-b5a9-ffffd2e16011df83" Title="Aktor (Relais) 7" Nio="1" WF="16385">
+					<Co K="I" U="12d2772f-01bf-b5a8-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q8" V="124" U="12d2772f-01c0-b5ac-ffffd2e16011df83" Title="Aktor (Relais) 8" Nio="1" WF="16385">
+					<Co K="I" U="12d2772f-01c0-b5ab-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="AnalogOutputCaption" V="124" U="12d2772f-01b0-b550-ffffd2e16011df83" Title="Analoge Ausgänge" WF="16384">
+				<C Type="VoltageOut" IName="AQ1" V="124" U="12d2772f-01c0-b5af-ffffd2e16011df83" Title="Spannung 1" Nio="1" WF="16385" Channel="1" SourceValHigh="10" DestValHigh="10">
+					<Co K="I" U="12d2772f-01c0-b5ae-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageOut" IName="AQ2" V="124" U="12d2772f-01c0-b5b2-ffffd2e16011df83" Title="Spannung 2" Nio="1" WF="16385" Channel="1" SourceValHigh="10" DestValHigh="10">
+					<Co K="I" U="12d2772f-01c0-b5b1-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageOut" IName="AQ3" V="124" U="12d2772f-01c1-b5b5-ffffd2e16011df83" Title="Spannung 3" Nio="1" WF="16385" Channel="1" SourceValHigh="10" DestValHigh="10">
+					<Co K="I" U="12d2772f-01c1-b5b4-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageOut" IName="AQ4" V="124" U="12d2772f-01c1-b5b8-ffffd2e16011df83" Title="Spannung 4" Nio="1" WF="16385" Channel="1" SourceValHigh="10" DestValHigh="10">
+					<Co K="I" U="12d2772f-01c1-b5b7-ffffb3e373542f96"/>
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="WeatherCaption" V="124" U="12d2772f-01b3-b560-ffffd2e16011df83" Title="Miniserverkommunikation" WF="16384"/>
+			<C Type="EIBline" V="124" U="12d2772f-01b1-b552-ffffd2e16011df83" Title="KNX/EIB Linie" WF="16384" CycleUserProt="-1" Serial="00000000" Installation="" SwitchBoard="Schaltschrank" SwitchBoardRow="1" SwitchBoardPos="1" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1" EibAddr="1.1.250 14/">
+				<IoData></IoData>
+				<C Type="EIBsensorCaption" V="124" U="12d2772f-01b1-b554-ffffd2e16011df83" Title="Sensoren" WF="16384"/>
+				<C Type="EIBactorCaption" V="124" U="12d2772f-01b1-b556-ffffd2e16011df83" Title="Aktoren" WF="16384"/>
+			</C>
+			<C Type="VirtualInCaption" V="124" U="12d2772f-01b2-b558-ffffd2e16011df83" Title="Virtuelle Eingänge" WF="16384">
+				<C Type="VirtualHttpIn" Desc="Yamaha MusicCast v1.0" IName="VHI1" V="124" U="12d27b36-030f-3e77-ffffd2e16011df83" Title="Yamaha MusicCast v1.0" Cl="0,0,0" WF="16384" Address="http://MUSICCASTIP/YamahaExtendedControl/v1/main/getStatus" Poll="10" Timeout="4000">
+					<C Type="VirtualHttpInCmd" IName="VCI1" V="124" U="12d27b36-0310-3e7b-ffffd2e16011df83" Title="get_volume" Cl="0,0,0" Nio="2" WF="16400" Check="&quot;volume&quot;:\v" Analog="true" SourceValHigh="100" DestValHigh="100" MinVal="-10000" MaxVal="10000">
+						<Co K="AQ" U="12d27b36-0310-3e79-ffffda2d1b8eb435"/>
+						<Co K="Q" U="12d27b36-0310-3e7a-ffffda2d1b8eb435"/>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualHttpInCmd" IName="VCI2" V="124" U="12d27b36-0310-3e7f-ffffd2e16011df83" Title="get_power" Cl="0,0,0" Nio="2" WF="16400" Check="&quot;power&quot;:&quot;\1" Analog="true" SourceValHigh="100" DestValHigh="100" MinVal="-10000" MaxVal="10000">
+						<Co K="AQ" U="12d27b36-0310-3e7d-ffffda2d1b8eb435"/>
+						<Co K="Q" U="12d27b36-0310-3e7e-ffffda2d1b8eb435"/>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualHttpInCmd" Desc="1st letter" IName="VCI3" V="124" U="12d27b36-0311-3e83-ffffd2e16011df83" Title="get_input_1" Cl="0,0,0" Nio="2" WF="16400" Check="input&quot;:&quot;\1" Analog="true" SourceValHigh="100" DestValHigh="100" MinVal="-10000" MaxVal="10000">
+						<Co K="AQ" U="12d27b36-0311-3e81-ffffda2d1b8eb435"/>
+						<Co K="Q" U="12d27b36-0311-3e82-ffffda2d1b8eb435"/>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualHttpInCmd" Desc="3rd letter" IName="VCI4" V="124" U="12d27b36-0312-3e87-ffffd2e16011df83" Title="get_input_2" Cl="0,0,0" Nio="2" WF="16400" Check="input&quot;:&quot;\s2\1" Analog="true" SourceValHigh="100" DestValHigh="100" MinVal="-10000" MaxVal="10000">
+						<Co K="AQ" U="12d27b36-0312-3e85-ffffda2d1b8eb435"/>
+						<Co K="Q" U="12d27b36-0312-3e86-ffffda2d1b8eb435"/>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualHttpInCmd" Desc="5rd letter" IName="VCI5" V="124" U="12d27b36-0313-3e8b-ffffd2e16011df83" Title="get_input_3" Cl="0,0,0" Nio="2" WF="16400" Check="input&quot;:&quot;\s4\1" Analog="true" SourceValHigh="100" DestValHigh="100" MinVal="-10000" MaxVal="10000">
+						<Co K="AQ" U="12d27b36-0313-3e89-ffffda2d1b8eb435"/>
+						<Co K="Q" U="12d27b36-0313-3e8a-ffffda2d1b8eb435"/>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualHttpInCmd" Desc="6rd letter" IName="VCI6" V="124" U="12d27b36-0314-3e8f-ffffd2e16011df83" Title="get_input_4" Cl="0,0,0" Nio="2" WF="16400" Check="input&quot;:&quot;\s5\1" Analog="true" SourceValHigh="100" DestValHigh="100" MinVal="-10000" MaxVal="10000">
+						<Co K="AQ" U="12d27b36-0314-3e8d-ffffda2d1b8eb435"/>
+						<Co K="Q" U="12d27b36-0314-3e8e-ffffda2d1b8eb435"/>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualHttpInCmd" IName="VCI7" V="124" U="12d27b36-0315-3e93-ffffd2e16011df83" Title="get_mute" Cl="0,0,0" Nio="2" WF="16400" Check="&quot;mute&quot;:\1" Signed="true" Analog="true" SourceValHigh="100" DestValHigh="100" MinVal="-10000" MaxVal="10000">
+						<Co K="AQ" U="12d27b36-0315-3e91-ffffda2d1b8eb435"/>
+						<Co K="Q" U="12d27b36-0315-3e92-ffffda2d1b8eb435"/>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="VirtualIn" IName="VI1" V="124" U="12d27ccb-012d-4926-ffffd2e16011df83" Title="MusicCast - Power" Nio="2" WF="16400" Analog="false" MaxVal="100" MinChange="0.25" MinTime="1000" AverageTime="1">
+					<Co K="Q" U="12d27ccb-012d-4924-fffff4bcbb285a48"/>
+					<Co K="Qm" U="12d27ccb-012d-4925-fffff4bcbb285a48"/>
+					<IoData Visu="true" Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;"/>
+				</C>
+				<C Type="VirtualIn" IName="VI2" V="124" U="12d27d3f-0310-8bd4-ffffd2e16011df83" Title="MusicCast - Mute" Nio="2" WF="16400" Analog="false" MaxVal="100" MinChange="0.25" MinTime="1000" AverageTime="1">
+					<Co K="Q" U="12d27d3f-0310-8bd2-ffffa9fe2474ae30"/>
+					<Co K="Qm" U="12d27d3f-0310-8bd3-ffffa9fe2474ae30"/>
+					<IoData Visu="true" Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;"/>
+				</C>
+			</C>
+			<C Type="VirtualOutCaption" V="124" U="12d2772f-01b2-b55a-ffffd2e16011df83" Title="Virtuelle Ausgänge" WF="16384">
+				<C Type="VirtualOut" IName="VQ1" V="124" U="12d27b40-0137-404f-ffffd2e16011df83" Title="Yamaha MusicCast v1.0" WF="16384" Address="http://MUSICCASTIP" CloseAfterSend="true">
+					<IoData Pr="12d27709-0098-b482-ffffd2e16011df83"/>
+					<C Type="VirtualOutCmd" IName="VQC1" V="124" U="12d27b40-0138-4052-ffffd2e16011df83" Title="set_volume" Nio="1" WF="16400" Analog="true" CmdOn="/YamahaExtendedControl/v1/main/setVolume?volume=&lt;v&gt;" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" Nc="1" U="12d27b40-0138-4051-ffff2664285593f9">
+							<In Input="12d27c1d-033f-08c9-ffff24d41b2e72a1"/>
+						</Co>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC2" V="124" U="12d27b40-0138-4055-ffffd2e16011df83" Title="set_power_off" Nio="1" WF="16400" CmdOn="/YamahaExtendedControl/v1/main/setPower?power=standby" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" Nc="1" U="12d27b40-0138-4054-ffff2664285593f9">
+							<In Input="12d27c2a-0169-0b11-ffffbbe77be9d170"/>
+						</Co>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC3" V="124" U="12d27b40-0139-4058-ffffd2e16011df83" Title="set_power_on" Nio="1" WF="16400" CmdOn="/YamahaExtendedControl/v1/main/setPower?power=on" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" Nc="1" U="12d27b40-0139-4057-ffff2664285593f9">
+							<In Input="12d27c2d-02d2-0d5e-ffffd9c298949852"/>
+						</Co>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC4" V="124" U="12d27b40-013a-405b-ffffd2e16011df83" Title="set_mute_on" Nio="1" WF="16400" CmdOn="/YamahaExtendedControl/v1/main/setMute?enable=true" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" Nc="1" U="12d27b40-013a-405a-ffff2664285593f9">
+							<In Input="12d27c3d-0283-0fb1-ffffb5373d37144d"/>
+						</Co>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC5" V="124" U="12d27b40-013a-405e-ffffd2e16011df83" Title="set_mute_off" Nio="1" WF="16400" CmdOn="/YamahaExtendedControl/v1/main/setMute?enable=false" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" Nc="1" U="12d27b40-013a-405d-ffff2664285593f9">
+							<In Input="12d27c43-02e1-1208-ffff6bb3b2e3b733"/>
+						</Co>
+						<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+				</C>
+			</C>
+			<C Type="TaskCaption" V="124" U="12d2772f-01b3-b55e-ffffd2e16011df83" Title="Aufgezeichnete Tasks" Cl="0,0,0" WF="16384" gT="12d2772f-01b3-b55d-ffffb3e373542f96" pT="12d2772f-01b3-b55c-ffffb3e373542f96"/>
+			<C Type="LoxCaption" V="124" U="12d2772f-01b6-b56a-ffffd2e16011df83" Title="SD-Karte" Cl="0,0,0" WF="16384" CaptionType="4"/>
+			<C Type="LoxCaption" V="124" U="12d2772f-01b7-b56c-ffffd2e16011df83" Title="Beleuchtungsgruppen" Cl="0,0,0" WF="16384" CaptionType="7"/>
+			<C Type="LoggerOutCaption" V="124" U="12d2772f-01b3-b562-ffffd2e16011df83" Title="Mitteilungen" WF="16384">
+				<C Type="Logger" V="124" U="12d2772f-01b4-b564-ffffd2e16011df83" Title="Standard Logger" WF="16384" Address="/log/user.log" Std="true"/>
+				<C Type="Notification" V="124" U="12d2772f-01b4-b566-ffffd2e16011df83" Title="Systembenachrichtigung" WF="16384" Entries="10" Sys="true">
+					<IoData Cr="12d27709-0071-b335-ffffd2e16011df83" Pr="12d27709-0098-b482-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				</C>
+				<C Type="Mailer" V="124" U="12d2772f-01b5-b568-ffffd2e16011df83" Title="Loxone Cloud Mailer" WF="16384" Cloud="true" Msg="true" SmtpReceiver="123@123.de" SmtpSubject="Unbenannt"/>
+			</C>
+		</C>
+		<C Type="Program" V="124" U="12d2772f-01cb-b5d9-ffffd2e16011df83" Title="Unbenannt" Ref="12d2772f-01ad-b548-ffffd2e16011df83" WF="16384">
+			<C Type="Page" V="124" U="12d2772f-01cb-b5db-ffffd2e16011df83" Title="MusicCast" WF="16384">
+				<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+				<C Type="InputRef" V="124" U="12d27bfc-00f5-fdb5-ffffd2e16011df83" Title="get_input_4" Px="1344" Py="6432" Px2="3456" Py2="6624" Cl="238,238,238" Nio="4" Ref="12d27b36-0314-3e8f-ffffd2e16011df83" WF="163840" Analog="true" LinkRefType="87">
+					<Co K="AI" Nc="1" U="12d27bfc-00f5-fdb1-ffffb34fc43757bd">
+						<In Input="12d27b36-0314-3e8d-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27bfc-00f5-fdb2-ffffb34fc43757bd">
+						<In Input="12d27b36-0314-3e8e-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="AQ" U="12d27bfc-00f5-fdb3-ffffb34fc43757bd"/>
+					<Co K="Q" U="12d27bfc-00f5-fdb4-ffffb34fc43757bd"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27bff-0080-ffdd-ffffd2e16011df83" Title="get_input_2" Px="1344" Py="6048" Px2="3456" Py2="6240" Cl="238,238,238" Nio="4" Ref="12d27b36-0312-3e87-ffffd2e16011df83" WF="163840" Analog="true" LinkRefType="87">
+					<Co K="AI" Nc="1" U="12d27bff-0080-ffd9-ffff3ec9becec698">
+						<In Input="12d27b36-0312-3e85-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27bff-0080-ffda-ffff3ec9becec698">
+						<In Input="12d27b36-0312-3e86-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="AQ" U="12d27bff-0080-ffdb-ffff3ec9becec698"/>
+					<Co K="Q" U="12d27bff-0080-ffdc-ffff3ec9becec698"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27c04-010e-020d-ffffd2e16011df83" Title="get_input_3" Px="1344" Py="6240" Px2="3456" Py2="6432" Cl="238,238,238" Nio="4" Ref="12d27b36-0313-3e8b-ffffd2e16011df83" WF="163840" Analog="true" LinkRefType="87">
+					<Co K="AI" Nc="1" U="12d27c04-010e-0209-ffff14a574b35ddb">
+						<In Input="12d27b36-0313-3e89-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27c04-010e-020a-ffff14a574b35ddb">
+						<In Input="12d27b36-0313-3e8a-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="AQ" U="12d27c04-010e-020b-ffff14a574b35ddb"/>
+					<Co K="Q" U="12d27c04-010e-020c-ffff14a574b35ddb"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27c07-0189-0445-ffffd2e16011df83" Title="get_input_1" Px="1344" Py="5856" Px2="3456" Py2="6048" Cl="238,238,238" Nio="4" Ref="12d27b36-0311-3e83-ffffd2e16011df83" WF="131072" Analog="true" LinkRefType="87">
+					<Co K="AI" Nc="1" U="12d27c07-0189-0441-ffffebce64541de4">
+						<In Input="12d27b36-0311-3e81-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27c07-0189-0442-ffffebce64541de4">
+						<In Input="12d27b36-0311-3e82-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="AQ" U="12d27c07-0189-0443-ffffebce64541de4"/>
+					<Co K="Q" U="12d27c07-0189-0444-ffffebce64541de4"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27c17-01da-0685-ffffd2e16011df83" Title="get_volume" Px="7776" Py="7008" Px2="9888" Py2="7200" Cl="238,238,238" Nio="4" Ref="12d27b36-0310-3e7b-ffffd2e16011df83" WF="131072" Analog="true" LinkRefType="87">
+					<Co K="AI" Nc="1" U="12d27c17-01da-0681-ffffce075c8aeabd">
+						<In Input="12d27b36-0310-3e79-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27c17-01da-0682-ffffce075c8aeabd">
+						<In Input="12d27b36-0310-3e7a-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="AQ" U="12d27c17-01da-0683-ffffce075c8aeabd"/>
+					<Co K="Q" U="12d27c17-01da-0684-ffffce075c8aeabd"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27c4d-0013-1468-ffffd2e16011df83" Title="get_mute" Px="1344" Py="9024" Px2="3456" Py2="9216" Cl="238,238,238" Nio="4" Ref="12d27b36-0315-3e93-ffffd2e16011df83" WF="163840" Analog="true" LinkRefType="87">
+					<Co K="AI" Nc="1" U="12d27c4d-0013-1464-ffffd5634100ea2c">
+						<In Input="12d27b36-0315-3e91-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27c4d-0013-1465-ffffd5634100ea2c">
+						<In Input="12d27b36-0315-3e92-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="AQ" U="12d27c4d-0013-1466-ffffd5634100ea2c"/>
+					<Co K="Q" U="12d27c4d-0013-1467-ffffd5634100ea2c"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27c80-037f-2c1c-ffffd2e16011df83" Title="cons_mute_off" Px="1344" Py="8352" Px2="3456" Py2="8544" Cl="238,238,238" Nio="4" Ref="12d27c6a-02ec-2500-ffffd2e16011df83" RefL="12d27c6a-02ec-2500-ffffd2e16011df83" Ref2="12d27c6a-02ec-2500-ffffd2e16011df83" WF="131072" Analog="true" LinkRefType="17">
+					<Co K="AI" Nc="1" U="12d27c80-037f-2c18-ffff932d20f0b82b">
+						<In Input="12d27c6a-02ec-24ff-ffff4e1a07fcda3b"/>
+					</Co>
+					<Co K="I" U="12d27c80-037f-2c19-ffff932d20f0b82b"/>
+					<Co K="AQ" U="12d27c80-037f-2c1a-ffff932d20f0b82b"/>
+					<Co K="Q" U="12d27c80-037f-2c1b-ffff932d20f0b82b"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27c96-00f4-3a8c-ffffd2e16011df83" Title="cons_mute_on" Px="1344" Py="9696" Px2="3456" Py2="9888" Cl="238,238,238" Nio="4" Ref="12d27c8b-01a8-35b6-ffffd2e16011df83" WF="131072" Analog="true" LinkRefType="17">
+					<Co K="AI" Nc="1" U="12d27c96-00f4-3a88-ffffe87d55b4d1f7">
+						<In Input="12d27c8b-01a8-35b5-ffffe260f6b6e246"/>
+					</Co>
+					<Co K="I" U="12d27c96-00f4-3a89-ffffe87d55b4d1f7"/>
+					<Co K="AQ" U="12d27c96-00f4-3a8a-ffffe87d55b4d1f7"/>
+					<Co K="Q" U="12d27c96-00f4-3a8b-ffffe87d55b4d1f7"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27cce-0104-4ba1-ffffd2e16011df83" Title="MusicCast - Power" Px="11424" Py="4224" Px2="13536" Py2="4416" Cl="238,238,238" Nio="4" Ref="12d27ccb-012d-4926-ffffd2e16011df83" RefL="12d27ccb-012d-4926-ffffd2e16011df83" Ref2="12d27ccb-012d-4926-ffffd2e16011df83" WF="131072" LinkRefType="71">
+					<Co K="AI" Nc="1" U="12d27cce-0104-4b9d-ffffaf37a63a096b">
+						<In Input="12d27ccb-012d-4924-fffff4bcbb285a48"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27cce-0104-4b9e-ffffaf37a63a096b">
+						<In Input="12d27ccb-012d-4925-fffff4bcbb285a48"/>
+					</Co>
+					<Co K="AQ" U="12d27cce-0104-4b9f-ffffaf37a63a096b"/>
+					<Co K="Q" U="12d27cce-0104-4ba0-ffffaf37a63a096b"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27d19-00cf-7a5a-ffffbc20f950dcf2" Title="MusicCast - Power" Px="11424" Py="5472" Px2="13536" Py2="5664" Cl="238,238,238" Nio="4" Ref="12d27ccb-012d-4926-ffffd2e16011df83" RefL="12d27ccb-012d-4926-ffffd2e16011df83" Ref2="12d27ccb-012d-4926-ffffd2e16011df83" WF="131072" LinkRefType="71">
+					<Co K="AI" Nc="1" U="12d27d19-00cf-7a5b-ffffbc20f950dcf2">
+						<In Input="12d27ccb-012d-4924-fffff4bcbb285a48"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27d19-00cf-7a5d-ffffbc20f950dcf2">
+						<In Input="12d27ccb-012d-4925-fffff4bcbb285a48"/>
+					</Co>
+					<Co K="AQ" U="12d27d19-00cf-7a5f-ffffbc20f950dcf2"/>
+					<Co K="Q" U="12d27d19-00cf-7a60-ffffbc20f950dcf2"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27d57-0115-95e3-ffffd2e16011df83" Title="MusicCast - Mute" Px="7776" Py="8160" Px2="9888" Py2="8352" Cl="238,238,238" Nio="4" Ref="12d27d3f-0310-8bd4-ffffd2e16011df83" RefL="12d27d3f-0310-8bd4-ffffd2e16011df83" Ref2="12d27d3f-0310-8bd4-ffffd2e16011df83" WF="131072" LinkRefType="71">
+					<Co K="AI" Nc="1" U="12d27d57-0115-95df-ffff83d1bbeb3e8d">
+						<In Input="12d27d3f-0310-8bd2-ffffa9fe2474ae30"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27d57-0115-95e0-ffff83d1bbeb3e8d">
+						<In Input="12d27d3f-0310-8bd3-ffffa9fe2474ae30"/>
+					</Co>
+					<Co K="AQ" U="12d27d57-0115-95e1-ffff83d1bbeb3e8d"/>
+					<Co K="Q" U="12d27d57-0115-95e2-ffff83d1bbeb3e8d"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27d6d-00c0-aa2e-ffffd1256c7d87e4" Title="MusicCast - Mute" Px="7776" Py="9312" Px2="9888" Py2="9504" Cl="238,238,238" Nio="4" Ref="12d27d3f-0310-8bd4-ffffd2e16011df83" RefL="12d27d3f-0310-8bd4-ffffd2e16011df83" Ref2="12d27d3f-0310-8bd4-ffffd2e16011df83" WF="131072" LinkRefType="71">
+					<Co K="AI" Nc="1" U="12d27d6d-00c0-aa2f-ffffd1256c7d87e4">
+						<In Input="12d27d3f-0310-8bd2-ffffa9fe2474ae30"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27d6d-00c0-aa31-ffffd1256c7d87e4">
+						<In Input="12d27d3f-0310-8bd3-ffffa9fe2474ae30"/>
+					</Co>
+					<Co K="AQ" U="12d27d6d-00c0-aa33-ffffd1256c7d87e4"/>
+					<Co K="Q" U="12d27d6d-00c0-aa34-ffffd1256c7d87e4"/>
+				</C>
+				<C Type="InputRef" V="124" U="12d27bf5-0085-fb95-ffffd2e16011df83" Title="get_power" Px="4992" Py="4992" Px2="7104" Py2="5184" Cl="238,238,238" Nio="4" Ref="12d27b36-0310-3e7f-ffffd2e16011df83" WF="131072" Analog="true" LinkRefType="87">
+					<Co K="AI" Nc="1" U="12d27bf5-0085-fb91-ffff001e514727f4">
+						<In Input="12d27b36-0310-3e7d-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="I" Nc="1" U="12d27bf5-0085-fb92-ffff001e514727f4">
+						<In Input="12d27b36-0310-3e7e-ffffda2d1b8eb435"/>
+					</Co>
+					<Co K="AQ" U="12d27bf5-0085-fb93-ffff001e514727f4"/>
+					<Co K="Q" U="12d27bf5-0085-fb94-ffff001e514727f4"/>
+				</C>
+				<C Type="Text" V="124" U="12d27825-0118-1b14-ffffd2e16011df83" Title="To-do" Px="7008" Py="1824" Px2="11968" Py2="2028" Cl="255,200,100" Text="2. IP vom Virtuellen Eingang &quot;Yamaha MusicCast&quot; anpassen" Td="true"/>
+				<C Type="Text" V="124" U="12d27b03-01ee-2b8d-ffffd2e16011df83" Title="Notiz" Px="4320" Py="672" Px2="15128" Py2="1260" Cl="0,128,0" Text="Forumlink:
+
+https://www.loxforum.com/forum/german/software-konfiguration-programm-und-visualisierung/38635-yamaha-mulitcast-einbinden"/>
+				<C Type="Text" V="124" U="12d27b61-0337-4776-ffffa2f7da7fd575" Title="To-do" Px="7008" Py="2112" Px2="12054" Py2="2316" Cl="255,200,100" Text="3. IP vom Virtuellen Ausgang &quot;Yamaha MusicCast&quot; anpassen" Td="true"/>
+				<C Type="Text" V="124" U="12d27b7b-0262-4e90-ffffd2044c0c7102" Title="To-do" Px="7968" Py="1536" Px2="10962" Py2="1740" Cl="255,200,100" Text="1. IP vom Baustein &quot;Ping&quot; anpassen" Td="true"/>
+				<C Type="Ping" V="124" U="12d27bcc-03b0-f53c-ffff524d2e0442b3" Title="MusicCast - Ping" Px="4416" Py="3936" Px2="7104" Py2="4800" Cl="105,195,80" Nio="5" WF="131072" Addr="MUSICCASTIP" WaitAfterRestart="10">
+					<Co K="InputDisable" U="12d27bcc-03b0-f53d-ffff524d2e0442b3"/>
+					<Co K="PingTime" Def="10" U="12d27bcc-03b0-f53e-ffff524d2e0442b3"/>
+					<Co K="TimeoutTime" Def="30" U="12d27bcc-03b0-f53f-ffff524d2e0442b3"/>
+					<Co K="Timeouts" Def="5" U="12d27bcc-03b0-f540-ffff524d2e0442b3"/>
+					<Co K="Online" U="12d27bcc-03b0-f541-ffff524d2e0442b3"/>
+					<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true" IxText="8"/>
+				</C>
+				<C Type="State" V="124" U="12d27bcc-03b0-f542-ffff524d2e0442b3" Title="MusicCast - Status" Px="8544" Py="4320" Px2="11232" Py2="5568" Cl="105,195,80" Nio="6">
+					<Co K="I1" Nc="1" U="12d27bcc-03b0-f543-ffff524d2e0442b3">
+						<In Input="12d27bcc-03b0-f541-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="I2" Nc="1" U="12d27bcc-03b0-f544-ffff524d2e0442b3">
+						<In Input="12d27bf5-0085-fb93-ffff001e514727f4"/>
+					</Co>
+					<Co K="I3" Nc="1" U="12d27bcc-03b0-f545-ffff524d2e0442b3">
+						<In Input="12d27bcc-03b0-f546-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="I4" U="12d27bcc-03b0-f547-ffff524d2e0442b3"/>
+					<Co K="TQ" U="12d27bcc-03b0-f548-ffff524d2e0442b3"/>
+					<Co K="AQ" U="12d27bcc-03b0-f549-ffff524d2e0442b3"/>
+					<IoData Visu="true" Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;"/>
+					<StateTexts Num="28">
+						<StateText Valid="true" ValidV="true" Text="Gerät ist offline" TextV="0" Icon="00000000-0000-0002-2200000000000000" Input0="1"/>
+						<StateText Valid="true" ValidV="true" Text="Gerät ist im Standby" TextV="0" Icon="00000000-0000-0012-2200000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="115" CondT1="115"/>
+						<StateText Valid="true" ValidV="true" Text="AV 1" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="1" CondT2="1"/>
+						<StateText Valid="true" ValidV="true" Text="AV 2" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="2" CondT2="2"/>
+						<StateText Valid="true" ValidV="true" Text="AV 3" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="3" CondT2="3"/>
+						<StateText Valid="true" ValidV="true" Text="Airplay" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="4" CondT2="4"/>
+						<StateText Valid="true" ValidV="true" Text="Audio 1" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="5" CondT2="5"/>
+						<StateText Valid="true" ValidV="true" Text="Audio 2" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="6" CondT2="6"/>
+						<StateText Valid="true" ValidV="true" Text="Audio 3" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="7" CondT2="7"/>
+						<StateText Valid="true" ValidV="true" Text="Aux" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="8" CondT2="8"/>
+						<StateText Valid="true" ValidV="true" Text="Bluetooth" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="9" CondT2="9"/>
+						<StateText Valid="true" ValidV="true" Text="Deezer" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="10" CondT2="10"/>
+						<StateText Valid="true" ValidV="true" Text="HDMI 1" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="11" CondT2="11"/>
+						<StateText Valid="true" ValidV="true" Text="HDMI 2" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="12" CondT2="12"/>
+						<StateText Valid="true" ValidV="true" Text="HDMI 3" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="13" CondT2="13"/>
+						<StateText Valid="true" ValidV="true" Text="HDMI 4" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="14" CondT2="14"/>
+						<StateText Valid="true" ValidV="true" Text="Internet Radio" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="15" CondT2="15"/>
+						<StateText Valid="true" ValidV="true" Text="Juke" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="16" CondT2="16"/>
+						<StateText Valid="true" ValidV="true" Text="MusicCast Link" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="17" CondT2="17"/>
+						<StateText Valid="true" ValidV="true" Text="Napster" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="18" CondT2="18"/>
+						<StateText Valid="true" ValidV="true" Text="Qobuz" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="19" CondT2="19"/>
+						<StateText Valid="true" ValidV="true" Text="Radio" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="20" CondT2="20"/>
+						<StateText Valid="true" ValidV="true" Text="Server" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="21" CondT2="21"/>
+						<StateText Valid="true" ValidV="true" Text="Spotify" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="22" CondT2="22"/>
+						<StateText Valid="true" ValidV="true" Text="Tindal" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="23" CondT2="23"/>
+						<StateText Valid="true" ValidV="true" Text="USB" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="24" CondT2="24"/>
+						<StateText Valid="true" ValidV="true" Text="Status unbekannt - Bitte im Forum melden" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="1" CondT0="1" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="25" CondT2="25"/>
+						<StateText Valid="true" ValidV="true" Text="" TextV="0" Icon="00000000-0000-0000-0000000000000000"/>
+					</StateTexts>
+				</C>
+				<C Type="State" V="124" U="12d27bcc-03b0-f54a-ffff524d2e0442b3" Title="MusicCast - Input" Px="4416" Py="5376" Px2="7104" Py2="6816" Cl="105,195,80" Nio="6">
+					<Co K="I1" Nc="1" U="12d27bcc-03b0-f54b-ffff524d2e0442b3">
+						<In Input="12d27c07-0189-0443-ffffebce64541de4"/>
+					</Co>
+					<Co K="I2" Nc="1" U="12d27bcc-03b0-f54c-ffff524d2e0442b3">
+						<In Input="12d27bff-0080-ffdb-ffff3ec9becec698"/>
+					</Co>
+					<Co K="I3" Nc="1" U="12d27bcc-03b0-f54d-ffff524d2e0442b3">
+						<In Input="12d27c04-010e-020b-ffff14a574b35ddb"/>
+					</Co>
+					<Co K="I4" Nc="1" U="12d27bcc-03b0-f54e-ffff524d2e0442b3">
+						<In Input="12d27bfc-00f5-fdb3-ffffb34fc43757bd"/>
+					</Co>
+					<Co K="TQ" U="12d27bcc-03b0-f54f-ffff524d2e0442b3"/>
+					<Co K="AQ" U="12d27bcc-03b0-f546-ffff524d2e0442b3"/>
+					<IoData Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v.1&gt;"/>
+					<StateTexts Num="26">
+						<StateText Valid="true" ValidV="true" Text="AV 1" TextV="1" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="97" CondT0="97" Input1="2" CondV1="49" CondT1="49"/>
+						<StateText Valid="true" ValidV="true" Text="AV 2" TextV="2" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="97" CondT0="97" Input1="2" CondV1="50" CondT1="50"/>
+						<StateText Valid="true" ValidV="true" Text="AV 3" TextV="3" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="97" CondT0="97" Input1="2" CondV1="51" CondT1="51"/>
+						<StateText Valid="true" ValidV="true" Text="Airplay" TextV="4" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="97" CondT0="97" Input1="2" CondV1="114" CondT1="114" Input2="3" CondV2="108" CondT2="108"/>
+						<StateText Valid="true" ValidV="true" Text="Audio 1" TextV="5" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="97" CondT0="97" Input1="2" CondV1="100" CondT1="100" Input2="3" CondV2="111" CondT2="111" Input3="4" CondV3="49" CondT3="49"/>
+						<StateText Valid="true" ValidV="true" Text="Audio 2" TextV="6" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="97" CondT0="97" Input1="2" CondV1="100" CondT1="100" Input2="3" CondV2="111" CondT2="111" Input3="4" CondV3="50" CondT3="50"/>
+						<StateText Valid="true" ValidV="true" Text="Audio 3" TextV="7" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="97" CondT0="97" Input1="2" CondV1="100" CondT1="100" Input2="3" CondV2="111" CondT2="111" Input3="4" CondV3="51" CondT3="51"/>
+						<StateText Valid="true" ValidV="true" Text="Aux" TextV="8" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="97" CondT0="97" Input1="2" CondV1="120" CondT1="120"/>
+						<StateText Valid="true" ValidV="true" Text="Bluetooth" TextV="9" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="98" CondT0="98" Input1="2" CondV1="117" CondT1="117" Input2="3" CondV2="116" CondT2="116" Input3="4" CondV3="111" CondT3="111"/>
+						<StateText Valid="true" ValidV="true" Text="Deezer" TextV="10" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="100" CondT0="100" Input1="2" CondV1="101" CondT1="101" Input2="3" CondV2="101" CondT2="101" Input3="4" CondV3="114" CondT3="114"/>
+						<StateText Valid="true" ValidV="true" Text="HDMI 1" TextV="11" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="104" CondT0="104" Input1="2" CondV1="109" CondT1="109" Input2="3" CondV2="49" CondT2="49"/>
+						<StateText Valid="true" ValidV="true" Text="HDMI 2" TextV="12" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="104" CondT0="104" Input1="2" CondV1="109" CondT1="109" Input2="3" CondV2="50" CondT2="50"/>
+						<StateText Valid="true" ValidV="true" Text="HDMI 3" TextV="13" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="104" CondT0="104" Input1="2" CondV1="109" CondT1="109" Input2="3" CondV2="51" CondT2="51"/>
+						<StateText Valid="true" ValidV="true" Text="HDMI 4" TextV="14" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="104" CondT0="104" Input1="2" CondV1="109" CondT1="109" Input2="3" CondV2="52" CondT2="52"/>
+						<StateText Valid="true" ValidV="true" Text="Internet Radio" TextV="15" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="110" CondT0="110" Input1="2" CondV1="116" CondT1="116" Input2="3" CondV2="114" CondT2="114" Input3="4" CondV3="97" CondT3="97"/>
+						<StateText Valid="true" ValidV="true" Text="Juke" TextV="16" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="106" CondT0="106" Input1="2" CondV1="107" CondT1="107"/>
+						<StateText Valid="true" ValidV="true" Text="MusicCast Link" TextV="17" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="109" CondT0="109" Input1="2" CondV1="95" CondT1="95" Input2="3" CondV2="105" CondT2="105" Input3="4" CondV3="110" CondT3="110"/>
+						<StateText Valid="true" ValidV="true" Text="Napster" TextV="18" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="110" CondT0="110" Input1="2" CondV1="112" CondT1="112" Input2="3" CondV2="116" CondT2="116" Input3="4" CondV3="101" CondT3="101"/>
+						<StateText Valid="true" ValidV="true" Text="Qobuz" TextV="19" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="113" CondT0="113" Input1="2" CondV1="98" CondT1="98" Input2="3" CondV2="122" CondT2="122"/>
+						<StateText Valid="true" ValidV="true" Text="Radio" TextV="20" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="116" CondT0="116" Input1="2" CondV1="110" CondT1="110" Input2="3" CondV2="114" CondT2="114"/>
+						<StateText Valid="true" ValidV="true" Text="Server" TextV="21" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="115" CondT0="115" Input1="2" CondV1="114" CondT1="114" Input2="3" CondV2="101" CondT2="101" Input3="4" CondV3="114" CondT3="114"/>
+						<StateText Valid="true" ValidV="true" Text="Spotify" TextV="22" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="115" CondT0="115" Input1="2" CondV1="111" CondT1="111" Input2="3" CondV2="105" CondT2="105" Input3="4" CondV3="102" CondT3="102"/>
+						<StateText Valid="true" ValidV="true" Text="Tindal" TextV="23" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="116" CondT0="116" Input1="2" CondV1="110" CondT1="110" Input2="3" CondV2="97" CondT2="97" Input3="4" CondV3="108" CondT3="108"/>
+						<StateText Valid="true" ValidV="true" Text="USB" TextV="24" Icon="00000000-0000-0000-0000000000000000" Input0="1" CondV0="117" CondT0="117" Input1="2" CondV1="98" CondT1="98"/>
+						<StateText Valid="true" ValidV="true" Text="Status unbekannt" TextV="25" Icon="00000000-0000-0000-0000000000000000" Input0="1" Cond0="2"/>
+						<StateText Valid="true" ValidV="true" Text="" TextV="0" Icon="00000000-0000-0000-0000000000000000"/>
+					</StateTexts>
+				</C>
+				<C Type="PushButton2Sel" V="124" U="12d27bcc-03b0-f550-ffff524d2e0442b3" Title="MusicCast - Volume" Px="10848" Py="6144" Px2="13536" Py2="7392" Cl="105,195,80" Nio="12">
+					<Co K="InputTrigger 1" U="12d27bcc-03b0-f551-ffff524d2e0442b3"/>
+					<Co K="InputTrigger 2" U="12d27bcc-03b0-f552-ffff524d2e0442b3"/>
+					<Co K="InputPos" Nc="1" U="12d27bcc-03b0-f553-ffff524d2e0442b3">
+						<In Input="12d27c17-01da-0683-ffffce075c8aeabd"/>
+					</Co>
+					<Co K="Reset" U="12d27bcc-03b0-f554-ffff524d2e0442b3"/>
+					<Co K="InputDisable" U="12d27bcc-03b0-f555-ffff524d2e0442b3"/>
+					<Co K="Remanence" Inv="true" U="12d27bcc-03b0-f556-ffff524d2e0442b3"/>
+					<Co K="Min" U="12d27bcc-03b0-f557-ffff524d2e0442b3"/>
+					<Co K="Max" Def="60" U="12d27bcc-03b0-f558-ffff524d2e0442b3"/>
+					<Co K="Step" Def="5" U="12d27bcc-03b0-f559-ffff524d2e0442b3"/>
+					<Co K="Repeat" Def="0.2" U="12d27bcc-03b0-f55a-ffff524d2e0442b3"/>
+					<Co K="Def" Def="1" U="12d27bcc-03b0-f55b-ffff524d2e0442b3"/>
+					<Co K="AQ" U="12d27bcc-03b0-f55c-ffff524d2e0442b3"/>
+					<IoData Visu="true" Cr="12d27709-007f-b3d3-ffffd2e16011df83" Pr="12d27709-00a6-b51e-ffffd2e16011df83" Ugr="12d27709-0097-b478-ffffd2e16011df83" Ugx="12d27709-0097-b478-ffffd2e16011df83"/>
+					<Display Unit="&lt;v&gt;"/>
+				</C>
+				<C Type="And" V="124" U="12d27bcc-03b0-f55d-ffff524d2e0442b3" Title="O829" Px="14496" Py="3936" Px2="15840" Py2="4608" Cl="105,195,80" Nio="3">
+					<Co K="I1" Nc="1" U="12d27bcc-03b0-f55e-ffff524d2e0442b3">
+						<In Input="12d27cce-0104-4b9f-ffffaf37a63a096b"/>
+					</Co>
+					<Co K="I2" Nc="1" U="12d27bcc-03b0-f55f-ffff524d2e0442b3">
+						<In Input="12d27bcc-03b0-f549-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="Q" U="12d27bcc-03b0-f560-ffff524d2e0442b3"/>
+				</C>
+				<C Type="And" V="124" U="12d27bcc-03b0-f561-ffff524d2e0442b3" Title="O829" Px="14496" Py="4992" Px2="15840" Py2="5664" Cl="105,195,80" Nio="3">
+					<Co K="I1" Inv="true" Nc="1" U="12d27bcc-03b0-f562-ffff524d2e0442b3">
+						<In Input="12d27bcc-03b0-f549-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="I2" Nc="1" U="12d27bcc-03b0-f563-ffff524d2e0442b3">
+						<In Input="12d27d19-00cf-7a5f-ffffbc20f950dcf2"/>
+					</Co>
+					<Co K="Q" U="12d27bcc-03b0-f564-ffff524d2e0442b3"/>
+				</C>
+				<C Type="And" V="124" U="12d27bcc-03b0-f565-ffff524d2e0442b3" Title="O887" Px="10848" Py="7872" Px2="12192" Py2="8544" Cl="105,195,80" Nio="3">
+					<Co K="I1" Nc="1" U="12d27bcc-03b0-f566-ffff524d2e0442b3">
+						<In Input="12d27d57-0115-95e1-ffff83d1bbeb3e8d"/>
+					</Co>
+					<Co K="I2" Nc="1" U="12d27bcc-03b0-f567-ffff524d2e0442b3">
+						<In Input="12d27bcc-03b0-f568-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="Q" U="12d27bcc-03b0-f569-ffff524d2e0442b3"/>
+				</C>
+				<C Type="And" V="124" U="12d27bcc-03b0-f56a-ffff524d2e0442b3" Title="O887" Px="10848" Py="9024" Px2="12192" Py2="9696" Cl="105,195,80" Nio="3">
+					<Co K="I1" Nc="1" U="12d27bcc-03b0-f56b-ffff524d2e0442b3">
+						<In Input="12d27d6d-00c0-aa33-ffffd1256c7d87e4"/>
+					</Co>
+					<Co K="I2" Nc="1" U="12d27bcc-03b0-f56c-ffff524d2e0442b3">
+						<In Input="12d27bcc-03b0-f56d-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="Q" U="12d27bcc-03b0-f56e-ffff524d2e0442b3"/>
+				</C>
+				<C Type="Equal" V="124" U="12d27bcc-03b0-f56f-ffff524d2e0442b3" Title="O893" Px="4416" Py="8064" Px2="5760" Py2="8736" Cl="105,195,80" Nio="3">
+					<Co K="Input1" Nc="1" U="12d27bcc-03b0-f570-ffff524d2e0442b3">
+						<In Input="12d27c80-037f-2c1a-ffff932d20f0b82b"/>
+					</Co>
+					<Co K="Input2" Nc="1" U="12d27bcc-03b0-f571-ffff524d2e0442b3">
+						<In Input="12d27c4d-0013-1466-ffffd5634100ea2c"/>
+					</Co>
+					<Co K="Q" U="12d27bcc-03b0-f568-ffff524d2e0442b3"/>
+				</C>
+				<C Type="Equal" V="124" U="12d27bcc-03b0-f572-ffff524d2e0442b3" Title="O893" Px="4416" Py="9216" Px2="5760" Py2="9888" Cl="105,195,80" Nio="3">
+					<Co K="Input1" Nc="1" U="12d27bcc-03b0-f573-ffff524d2e0442b3">
+						<In Input="12d27c4d-0013-1466-ffffd5634100ea2c"/>
+					</Co>
+					<Co K="Input2" Nc="1" U="12d27bcc-03b0-f574-ffff524d2e0442b3">
+						<In Input="12d27c96-00f4-3a8a-ffffe87d55b4d1f7"/>
+					</Co>
+					<Co K="Q" U="12d27bcc-03b0-f56d-ffff524d2e0442b3"/>
+				</C>
+				<C Type="Text" V="124" U="12d27de9-01df-bc2d-ffffd2e16011df83" Title="To-do" Px="6720" Py="2400" Px2="12353" Py2="2796" Cl="255,200,100" Text="4. Bei 2 Auswahltasten den Min/Max Bereich anpassen 
+(Gibt da Unterschiede zwischen AV Receiver und WX/ISX Geräten)" Td="true"/>
+				<C Type="OutputRef" V="124" U="12d27c2a-0169-0b12-ffffd2e16011df83" Title="set_power_off" Px="16800" Py="4224" Px2="18912" Py2="4416" Cl="238,238,238" Nio="2" Ref="12d27b40-0138-4055-ffffd2e16011df83" WF="147456" LinkRefType="74">
+					<Co K="AI" Nc="1" U="12d27c2a-0169-0b10-ffffbbe77be9d170">
+						<In Input="12d27bcc-03b0-f560-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="AQ" U="12d27c2a-0169-0b11-ffffbbe77be9d170"/>
+				</C>
+				<C Type="OutputRef" V="124" U="12d27c2d-02d2-0d5f-ffffd2e16011df83" Title="set_power_on" Px="16800" Py="5280" Px2="18912" Py2="5472" Cl="238,238,238" Nio="2" Ref="12d27b40-0139-4058-ffffd2e16011df83" WF="147456" LinkRefType="74">
+					<Co K="AI" Nc="1" U="12d27c2d-02d2-0d5d-ffffd9c298949852">
+						<In Input="12d27bcc-03b0-f564-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="AQ" U="12d27c2d-02d2-0d5e-ffffd9c298949852"/>
+				</C>
+				<C Type="OutputRef" V="124" U="12d27c3d-0283-0fb2-ffffd2e16011df83" Title="set_mute_on" Px="13152" Py="8160" Px2="15264" Py2="8352" Cl="238,238,238" Nio="2" Ref="12d27b40-013a-405b-ffffd2e16011df83" WF="147456" LinkRefType="74">
+					<Co K="AI" Nc="1" U="12d27c3d-0283-0fb0-ffffb5373d37144d">
+						<In Input="12d27bcc-03b0-f569-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="AQ" U="12d27c3d-0283-0fb1-ffffb5373d37144d"/>
+				</C>
+				<C Type="OutputRef" V="124" U="12d27c43-02e1-1209-ffffd2e16011df83" Title="set_mute_off" Px="13152" Py="9312" Px2="15264" Py2="9504" Cl="238,238,238" Nio="2" Ref="12d27b40-013a-405e-ffffd2e16011df83" WF="147456" LinkRefType="74">
+					<Co K="AI" Nc="1" U="12d27c43-02e1-1207-ffff6bb3b2e3b733">
+						<In Input="12d27bcc-03b0-f56e-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="AQ" U="12d27c43-02e1-1208-ffff6bb3b2e3b733"/>
+				</C>
+				<C Type="OutputRef" V="124" U="12d27c1d-033f-08ca-ffffd2e16011df83" Title="set_volume" Px="14496" Py="6624" Px2="16608" Py2="6816" Cl="238,238,238" Nio="2" Ref="12d27b40-0138-4052-ffffd2e16011df83" WF="147456" Analog="true" LinkRefType="74">
+					<Co K="AI" Nc="1" U="12d27c1d-033f-08c8-ffff24d41b2e72a1">
+						<In Input="12d27bcc-03b0-f55c-ffff524d2e0442b3"/>
+					</Co>
+					<Co K="AQ" U="12d27c1d-033f-08c9-ffff24d41b2e72a1"/>
+				</C>
+			</C>
+		</C>
+	</C>
+</ControlList>
